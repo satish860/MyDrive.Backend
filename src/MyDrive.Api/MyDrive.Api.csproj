@@ -7,13 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Files\" />
+    <Folder Include="Files\DeleteFile\" />
+    <Folder Include="Files\ListFile\" />
+    <Folder Include="Files\UploadFile\" />
     <Folder Include="Login\" />
     <Folder Include="Users\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="FastEndpoints" Version="5.8.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.19.0" />
   </ItemGroup>
 
 </Project>
